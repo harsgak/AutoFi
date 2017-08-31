@@ -1,5 +1,5 @@
 # AutoFi
-WiFi Captive Portal Auto Login  
+Auto-login assistant for WiFi captive portal.  
 Download: [[apk](https://github.com/harsgak/AutoFi/blob/master/factory/kids/AutoFi.16.apk?raw=true)]
 
 ## Why AutoFi?
