@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.0u4m">
+<TaskerData sr="" dvi="1" tv="5.0u5m">
 	<dmetric>1080.0,1920.0</dmetric>
 	<Scene sr="sceneIISER WiFi AutoLogin">
 		<cdate>1503158316131</cdate>
-		<edate>1503676449242</edate>
+		<edate>1504208376654</edate>
 		<heightLand>1080</heightLand>
 		<heightPort>1248</heightPort>
 		<nme>IISER WiFi AutoLogin</nme>
@@ -89,6 +89,7 @@
 			<clickTask>31</clickTask>
 			<flags>4</flags>
 			<geom>202,772,322,74,523,994,178,204</geom>
+			<longclickTask>35</longclickTask>
 			<Str sr="arg0" ve="3">Stats</Str>
 			<Str sr="arg1" ve="3">stats &lt;?&gt;</Str>
 			<Int sr="arg2" val="12"/>
@@ -315,7 +316,7 @@
 		<Action sr="act0" ve="7">
 			<code>125</code>
 			<Str sr="arg0" ve="3">harsh.gakhare@students.iiserpune.ac.in</Str>
-			<Str sr="arg1" ve="3">Regarding IISER-Wifi AutoLogin v%VERSIONNO</Str>
+			<Str sr="arg1" ve="3">Regarding IISER-Wifi AutoLogin (v%VERSIONNO)</Str>
 			<Str sr="arg2" ve="3"/>
 		</Action>
 	</Task>
@@ -390,8 +391,8 @@
 			<Str sr="arg0" ve="3"/>
 			<Str sr="arg1" ve="3">Check out IISER-Wifi AutoLogin.</Str>
 			<Str sr="arg2" ve="3">Hey,
-Try this app called IISER-AutoFi by @Hg. It automatically logs me into IISER WiFi captive portal every time I'm connected to IISER WiFi. 
-It has kept my connection alive 0 times (still counting!)
+Try this app called IISER-AutoFi by @Hg. It automatically logs me into IISER WiFi captive portal every time I'm connected to IISER WiFi. You should definitely try it.
+It has kept my connection alive %TotalLiveCycles times (still counting!)
 
 PS: Its still in exclusive early access. Ask me for the apk.</Str>
 		</Action>
@@ -418,6 +419,17 @@ PS: Its still in exclusive early access. Ask me for the apk.</Str>
 			<Str sr="arg1" ve="3">Password</Str>
 			<Int sr="arg2" val="2"/>
 			<Str sr="arg3" ve="3">%PASSWORD</Str>
+		</Action>
+	</Task>
+	<Task sr="task35">
+		<cdate>1503998868406</cdate>
+		<edate>1503998868406</edate>
+		<id>35</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">{"clientid" : %CLIENTID, "versionno" : %VERSIONNO, "life" : %TotalLifes, "livecycles" : %LiveCycles, "totallivecycles" : %TotalLiveCycles}</Str>
+			<Int sr="arg1" val="0"/>
 		</Action>
 	</Task>
 </TaskerData>
