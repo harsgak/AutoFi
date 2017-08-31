@@ -1,5 +1,6 @@
 # AutoFi
-WiFi Captive Portal Auto Login 
+WiFi Captive Portal Auto Login  
+Download: [[apk](https://github.com/harsgak/AutoFi/blob/master/factory/kids/AutoFi.16.apk)]
 
 ## Why AutoFi?
 On IISER Wifi network it is common to get disconnected and reconnected automatically while moving or due to signal fluctuations. When this happens, often a new captive portal requests you for login again.
