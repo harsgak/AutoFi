@@ -1,0 +1,423 @@
+<TaskerData sr="" dvi="1" tv="5.0u4m">
+	<dmetric>1080.0,1920.0</dmetric>
+	<Scene sr="sceneIISER WiFi AutoLogin">
+		<cdate>1503158316131</cdate>
+		<edate>1503676449242</edate>
+		<heightLand>1080</heightLand>
+		<heightPort>1248</heightPort>
+		<nme>IISER WiFi AutoLogin</nme>
+		<widthLand>702</widthLand>
+		<widthPort>702</widthPort>
+		<RectElement sr="elements0">
+			<flags>6</flags>
+			<geom>0,0,702,1248,5,975,696,105</geom>
+			<Str sr="arg0" ve="3">RectangleBackground</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF071C57</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<RectElement sr="elements1">
+			<flags>4</flags>
+			<geom>5,624,696,130,464,662,228,418</geom>
+			<Str sr="arg0" ve="3">AutoLogin switch-box</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#77333333</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="5"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="5"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements10" ve="3">
+			<clickTask>30</clickTask>
+			<flags>4</flags>
+			<geom>202,772,322,124,573,969,124,228</geom>
+			<Str sr="arg0" ve="3">Share</Str>
+			<Str sr="arg1" ve="3">share --&gt;</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="101"/>
+			<Str sr="arg4" ve="3">#FF35DD25</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="2"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements11" ve="3">
+			<clickTask>25</clickTask>
+			<flags>4</flags>
+			<geom>79,1118,544,55,236,428,228,418</geom>
+			<longclickTask>26</longclickTask>
+			<Str sr="arg0" ve="3">Credits concept</Str>
+			<Str sr="arg1" ve="3">Concept and Design : @Hg</Str>
+			<Int sr="arg2" val="8"/>
+			<Int sr="arg3" val="101"/>
+			<Str sr="arg4" ve="3">#FFE9B459</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="1"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements12" ve="3">
+			<clickTask>31</clickTask>
+			<flags>4</flags>
+			<geom>202,772,322,74,523,994,178,204</geom>
+			<Str sr="arg0" ve="3">Stats</Str>
+			<Str sr="arg1" ve="3">stats &lt;?&gt;</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="101"/>
+			<Str sr="arg4" ve="3">#FF55D1E9</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements2" ve="3">
+			<flags>4</flags>
+			<geom>29,228,643,75,5,673,469,105</geom>
+			<Str sr="arg0" ve="3">Enter Credentials</Str>
+			<Str sr="arg1" ve="3">Enter credentials:</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="101"/>
+			<Str sr="arg4" ve="3">#FF8D0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="2"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="2"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements3" ve="3">
+			<flags>4</flags>
+			<geom>29,648,495,80,29,747,445,74</geom>
+			<Str sr="arg0" ve="3">AutoLogin switch-text</Str>
+			<Str sr="arg1" ve="3">Activate AutoLogin</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="101"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<EditTextElement sr="elements4" ve="3">
+			<flags>4</flags>
+			<geom>29,451,643,100,5,871,469,98</geom>
+			<valueselectedTask>32</valueselectedTask>
+			<Str sr="arg0" ve="3">Password</Str>
+			<Str sr="arg1" ve="3">%PASSWORD</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="5"/>
+			<Int sr="arg8" val="1000"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#FFFFCC66</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="5"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="5"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</EditTextElement>
+		<EditTextElement sr="elements5" ve="3">
+			<flags>4</flags>
+			<geom>29,327,643,100,5,772,470,98</geom>
+			<valueselectedTask>29</valueselectedTask>
+			<Str sr="arg0" ve="3">Username</Str>
+			<Str sr="arg1" ve="3">%USERNAME</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1000"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#FFFFCC66</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="5"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="5"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</EditTextElement>
+		<SwitchElement sr="elements6">
+			<checkchangeTask>27</checkchangeTask>
+			<flags>4</flags>
+			<geom>523,648,153,80,426,890,266,190</geom>
+			<Str sr="arg0" ve="3">AutoLogin switch</Str>
+			<Int sr="arg1" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</SwitchElement>
+		<RectElement sr="elements7">
+			<flags>4</flags>
+			<geom>5,0,696,130,464,662,228,418</geom>
+			<Str sr="arg0" ve="3">HeaderBox</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#cc333333</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="10"/>
+			<Str sr="arg5" ve="3">#dd333333</Str>
+			<Int sr="arg6" val="10"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements8" ve="3">
+			<flags>4</flags>
+			<geom>5,0,692,154,236,428,228,418</geom>
+			<Str sr="arg0" ve="3">HeaderText</Str>
+			<Str sr="arg1" ve="3">WiFi AutoLogin (v%VERSIONNO)</Str>
+			<Int sr="arg2" val="15"/>
+			<Int sr="arg3" val="101"/>
+			<Str sr="arg4" ve="3">#DEFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements9" ve="3">
+			<clickTask>28</clickTask>
+			<flags>4</flags>
+			<geom>79,1093,544,105,236,428,228,418</geom>
+			<Str sr="arg0" ve="3">Credits logo</Str>
+			<Str sr="arg1" ve="3">Logo Art : @Ykj @vaiwa</Str>
+			<Int sr="arg2" val="8"/>
+			<Int sr="arg3" val="101"/>
+			<Str sr="arg4" ve="3">#FFE99D55</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="2"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="6"/>
+			<Str sr="arg2" ve="3">#33FFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">IISER Wifi AutoLogin</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2">
+				<uri>content://com.android.providers.downloads.documents/document/1047</uri>
+			</Img>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Task sr="task25">
+		<cdate>1503200181961</cdate>
+		<edate>1503200181961</edate>
+		<id>25</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">harsh.gakhare@students.iiserpune.ac.in</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task26">
+		<cdate>1503199862151</cdate>
+		<edate>1503199862151</edate>
+		<id>26</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>125</code>
+			<Str sr="arg0" ve="3">harsh.gakhare@students.iiserpune.ac.in</Str>
+			<Str sr="arg1" ve="3">Regarding IISER-Wifi AutoLogin v%VERSIONNO</Str>
+			<Str sr="arg2" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task27">
+		<cdate>1503147184872</cdate>
+		<edate>1503147184872</edate>
+		<id>27</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>195</code>
+			<Str sr="arg0" ve="3">IISER WiFi AutoLogin</Str>
+			<Str sr="arg1" ve="3">AutoLogin switch</Str>
+			<Int sr="arg2" val="2"/>
+			<Str sr="arg3" ve="3">%AutoLoginState</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">IISERNET-AutoLogin</Str>
+			<Int sr="arg1" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%AutoLoginState</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">IISERNET-AutoLogin</Str>
+			<Int sr="arg1" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%AutoLoginState</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task28">
+		<cdate>1503200402710</cdate>
+		<edate>1503200402710</edate>
+		<id>28</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">yash.jawale@students.iiserpune.ac.in vaibhav.wagh@students.iiserpune.ac.in</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task29">
+		<cdate>1503140347678</cdate>
+		<edate>1503140347678</edate>
+		<id>29</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>195</code>
+			<Str sr="arg0" ve="3">IISER WiFi AutoLogin</Str>
+			<Str sr="arg1" ve="3">Username</Str>
+			<Int sr="arg2" val="2"/>
+			<Str sr="arg3" ve="3">%USERNAME</Str>
+		</Action>
+	</Task>
+	<Task sr="task30">
+		<cdate>1503221454351</cdate>
+		<edate>1503221454351</edate>
+		<id>30</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>125</code>
+			<Str sr="arg0" ve="3"/>
+			<Str sr="arg1" ve="3">Check out IISER-Wifi AutoLogin.</Str>
+			<Str sr="arg2" ve="3">Hey,
+Try this app called IISER-AutoFi by @Hg. It automatically logs me into IISER WiFi captive portal every time I'm connected to IISER WiFi. 
+It has kept my connection alive 0 times (still counting!)
+
+PS: Its still in exclusive early access. Ask me for the apk.</Str>
+		</Action>
+	</Task>
+	<Task sr="task31">
+		<cdate>1503219147647</cdate>
+		<edate>1503219147647</edate>
+		<id>31</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">@hg %TotalLifes kept-alive %LiveCycles : %TotalLiveCycles</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task32">
+		<cdate>1503140654634</cdate>
+		<edate>1503140654634</edate>
+		<id>32</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>195</code>
+			<Str sr="arg0" ve="3">IISER WiFi AutoLogin</Str>
+			<Str sr="arg1" ve="3">Password</Str>
+			<Int sr="arg2" val="2"/>
+			<Str sr="arg3" ve="3">%PASSWORD</Str>
+		</Action>
+	</Task>
+</TaskerData>
