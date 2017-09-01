@@ -18,7 +18,7 @@
 	</Profile>
 	<Task sr="task2">
 		<cdate>1503133761866</cdate>
-		<edate>1503928986191</edate>
+		<edate>1504280618066</edate>
 		<id>2</id>
 		<nme>IISER Login</nme>
 		<pri>100</pri>
@@ -111,7 +111,7 @@
 	</Task>
 	<Task sr="task9">
 		<cdate>1503135968509</cdate>
-		<edate>1503832382452</edate>
+		<edate>1504280123072</edate>
 		<id>9</id>
 		<nme>IISER Logout</nme>
 		<pri>100</pri>

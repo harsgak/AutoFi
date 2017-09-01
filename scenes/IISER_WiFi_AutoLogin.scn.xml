@@ -2,7 +2,7 @@
 	<dmetric>1080.0,1920.0</dmetric>
 	<Scene sr="sceneIISER WiFi AutoLogin">
 		<cdate>1503158316131</cdate>
-		<edate>1504208376654</edate>
+		<edate>1504281514691</edate>
 		<heightLand>1080</heightLand>
 		<heightPort>1248</heightPort>
 		<nme>IISER WiFi AutoLogin</nme>
@@ -112,6 +112,31 @@
 				<Int sr="arg7" val="0"/>
 			</RectElement>
 		</TextElement>
+		<TextElement sr="elements13" ve="3">
+			<flags>8</flags>
+			<geom>202,920,322,74,202,920,322,74</geom>
+			<Str sr="arg0" ve="3">Update</Str>
+			<Str sr="arg1" ve="3">&lt;a href = "https://github.com/harsgak/AutoFi/blob/master/factory/kids/AutoFi.%WebApkno.apk?raw=true" &gt; update /^\ &lt;/a&gt;</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="101"/>
+			<Str sr="arg4" ve="3">#FFEDE33F</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="2"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
 		<TextElement sr="elements2" ve="3">
 			<flags>4</flags>
 			<geom>29,228,643,75,5,673,469,105</geom>
@@ -139,7 +164,7 @@
 		</TextElement>
 		<TextElement sr="elements3" ve="3">
 			<flags>4</flags>
-			<geom>29,648,495,80,29,747,445,74</geom>
+			<geom>29,648,499,80,29,747,445,74</geom>
 			<Str sr="arg0" ve="3">AutoLogin switch-text</Str>
 			<Str sr="arg1" ve="3">Activate AutoLogin</Str>
 			<Int sr="arg2" val="14"/>
@@ -389,12 +414,13 @@
 		<Action sr="act0" ve="7">
 			<code>125</code>
 			<Str sr="arg0" ve="3"/>
-			<Str sr="arg1" ve="3">Check out IISER-Wifi AutoLogin.</Str>
+			<Str sr="arg1" ve="3">Check out AutoFi [IISER-Wifi AutoLogin Assistant]</Str>
 			<Str sr="arg2" ve="3">Hey,
 Try this app called IISER-AutoFi by @Hg. It automatically logs me into IISER WiFi captive portal every time I'm connected to IISER WiFi. You should definitely try it.
 It has kept my connection alive %TotalLiveCycles times (still counting!)
 
-PS: Its still in exclusive early access. Ask me for the apk.</Str>
+
+PS: Its still in exclusive early access. Ask me for the apk if you don't find it here : https://github.com/harsgak/AutoFi</Str>
 		</Action>
 	</Task>
 	<Task sr="task31">
