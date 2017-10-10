@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.0u5m">
+<TaskerData sr="" dvi="1" tv="5.0u6m">
 	<dmetric>1080.0,1920.0</dmetric>
 	<Scene sr="sceneIISER WiFi AutoLogin">
 		<cdate>1503158316131</cdate>
-		<edate>1506718802558</edate>
+		<edate>1507593749297</edate>
 		<heightLand>1080</heightLand>
 		<heightPort>1248</heightPort>
 		<nme>IISER WiFi AutoLogin</nme>
@@ -478,6 +478,25 @@ P.S: Its still in exclusive early access for IISERites. Ask me for the apk if yo
 			<code>548</code>
 			<Str sr="arg0" ve="3">{"clientid" : %CLIENTID, "versionno" : %VERSIONNO, "life" : %TotalLifes, "livecycles" : %LiveCycles, "totallivecycles" : %TotalLiveCycles}</Str>
 			<Int sr="arg1" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Debug</lhs>
+					<op>3</op>
+					<rhs>True</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">{"clientid" : %CLIENTID, "versionno" : %VERSIONNO, "life" : %TotalLifes, "livecycles" : %LiveCycles, "totallivecycles" : %TotalLiveCycles, "debug" : 1}</Str>
+			<Int sr="arg1" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Debug</lhs>
+					<op>2</op>
+					<rhs>True</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 	</Task>
 </TaskerData>

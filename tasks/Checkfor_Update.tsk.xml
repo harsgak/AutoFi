@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.0u5m">
+<TaskerData sr="" dvi="1" tv="5.0u6m">
 	<Task sr="task36">
 		<cdate>1504266441120</cdate>
-		<edate>1504281154180</edate>
+		<edate>1507593530654</edate>
 		<id>36</id>
 		<nme>Checkfor Update</nme>
 		<pri>100</pri>
@@ -54,7 +54,6 @@
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>548</code>
-			<on>false</on>
 			<Str sr="arg0" ve="3">%HTTPD</Str>
 			<Int sr="arg1" val="0"/>
 			<ConditionList sr="if">
@@ -74,7 +73,6 @@
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>548</code>
-			<on>false</on>
 			<Str sr="arg0" ve="3">%webversion</Str>
 			<Int sr="arg1" val="0"/>
 			<ConditionList sr="if">
@@ -124,7 +122,7 @@
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>548</code>
-			<Str sr="arg0" ve="3">Latest Version %LatestVersion</Str>
+			<Str sr="arg0" ve="3">Update to Latest Version %LatestVersion</Str>
 			<Int sr="arg1" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">

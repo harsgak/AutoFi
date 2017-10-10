@@ -1,14 +1,14 @@
-<TaskerData sr="" dvi="1" tv="5.0u5m">
+<TaskerData sr="" dvi="1" tv="5.0u6m">
 	<Task sr="task33">
 		<cdate>1503471195225</cdate>
-		<edate>1504281414694</edate>
+		<edate>1507594003181</edate>
 		<id>33</id>
 		<nme>IISER LoginLog</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>545</code>
 			<Str sr="arg0" ve="3">%random2digit</Str>
-			<Int sr="arg1" val="0"/>
+			<Int sr="arg1" val="1"/>
 			<Int sr="arg2" val="99"/>
 			<ConditionList sr="if">
 				<bool0>Or</bool0>
@@ -46,7 +46,35 @@
 			</ConditionList>
 		</Action>
 		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%CLIENTID</Str>
+			<Str sr="arg1" ve="3">%TIMEMS*100</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>And</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%NewInstall</lhs>
+					<op>3</op>
+					<rhs>False</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%CLIENTID</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%Debug</lhs>
+					<op>2</op>
+					<rhs>True</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
 			<code>116</code>
+			<se>false</se>
 			<Str sr="arg0" ve="3">192.168.17.43:8000</Str>
 			<Str sr="arg1" ve="3">/post</Str>
 			<Str sr="arg2" ve="3">{"clientid" : %CLIENTID, "versionno" : %VERSIONNO, "life" : %TotalLifes, "livecycles" : %LiveCycles, "totallivecycles" : %TotalLiveCycles}</Str>
@@ -56,8 +84,35 @@
 			<Str sr="arg6" ve="3">text/xml</Str>
 			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Debug</lhs>
+					<op>3</op>
+					<rhs>True</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act4" ve="7">
+			<code>116</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">192.168.17.43:8000</Str>
+			<Str sr="arg1" ve="3">/post</Str>
+			<Str sr="arg2" ve="3">{"clientid" : %CLIENTID, "versionno" : %VERSIONNO, "life" : %TotalLifes, "livecycles" : %LiveCycles, "totallivecycles" : %TotalLiveCycles, "debug" : 1}</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="10"/>
+			<Str sr="arg6" ve="3">text/xml</Str>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Debug</lhs>
+					<op>2</op>
+					<rhs>True</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">%HTTPD</Str>
 			<Int sr="arg1" val="0"/>
