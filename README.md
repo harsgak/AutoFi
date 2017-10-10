@@ -1,6 +1,6 @@
 # AutoFi
 Auto-login assistant for WiFi captive portal.  
-Download: [[latest-apk](https://github.com/harsgak/AutoFi/blob/master/factory/kids/AutoFi.19.apk?raw=true)]
+Download: [[latest-apk](https://github.com/harsgak/AutoFi/blob/master/factory/kids/AutoFi.29.apk?raw=true)]
 
 ## Why AutoFi?
 On IISER Wifi network it is common to get disconnected and reconnected automatically while moving or due to signal fluctuations. When this happens, often a new captive portal requests you for login again.
@@ -24,3 +24,5 @@ For support, feature request or sending kudos you can send an email by long tapp
 
 ## Notice
 As of 28 September 2017, IISER has discontinued various student network SSIDs and opened a singular `Students` SSID for all students. To address this change an update to AutoFi is forthcoming. In the meanwhile AutoFi users can continue getting logged in automatically by switching to `Guest` network.
+
+Update: `Students` SSID is now supported from version 1.29 onwards. Link to latest-apk is provided at beginning of this readme.
