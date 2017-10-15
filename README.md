@@ -18,7 +18,7 @@ _Don't forget to toggle it back on later_
 
 
 ## Compatibility and support. 
-This app should work on any device with WiFi and Android version 5.0 and up. Currently supported IISER networks are ~~IISERUG1, IISERUG5, IISERPG and~~ Guest. Note that Faculty, Alpha, IISERCONF are currently **not** supported by default. 
+This app should work on any device with WiFi and Android version 5.0 and up. Currently supported IISER networks are ~~IISERUG1, IISERUG5, IISERPG~~ Students and Guest. Note that Faculty, Alpha, IISERCONF are currently **not** supported by default. 
 
 For support, feature request or sending kudos you can send an email by long tapping the developer tags in the app. If you use Github I would prefer you just star this repo and open an [issue](https://github.com/harsgak/AutoFi/issues) for whatever you need.
 
