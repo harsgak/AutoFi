@@ -9,7 +9,8 @@ Sometimes it just fails silently, you are connected to network but login has exp
 
 ## How to get Autofi?
 Autofi is officially available at the following sources.  
-[![AutoFi on Amazon](/images/amazon-appsstore-us-gray-v2.png)](https://www.amazon.com/gp/mas/dl/android?p=in.ac.iiserpune.students.gakhare.harsh.iiserautofi)  
+
+[![AutoFi on Amazon](/images/amazon-appsstore-us-gray-v2.png)](https://www.amazon.com/gp/mas/dl/android?p=in.ac.iiserpune.students.gakhare.harsh.iiserautofi) 
 [![AutoFi on GitHub](/images/GitHub_Logo.png)](https://github.com/harsgak/AutoFi/)
 
 
