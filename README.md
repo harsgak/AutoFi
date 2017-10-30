@@ -7,6 +7,11 @@ On IISER Wifi network it is not uncommon to get disconnected and reconnected aut
 
 Sometimes it just fails silently, you are connected to network but login has expired. This can be very frustrating and interrupt critical tasks such as WhatsApp, Facebook, IISERMail etc and leave you without updates until you remember to log in again.
 
+## How to get Autofi?
+Autofi is officially available at the following sources.  
+[![AutoFi on Amazon](/images/amazon-appsstore-us-gray-v2.png)](https://www.amazon.com/gp/mas/dl/android?p=in.ac.iiserpune.students.gakhare.harsh.iiserautofi)  
+[![AutoFi on GitHub](/images/GitHub_Logo.png)](https://github.com/harsgak/AutoFi/)
+
 
 ## How to use AutoFi?
 After installing just enter your username and password and toggle the Activate AutoLogin switch on. Then start your WiFi and connect to any supported network.
