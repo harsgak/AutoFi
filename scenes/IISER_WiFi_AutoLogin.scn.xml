@@ -2,7 +2,7 @@
 	<dmetric>1080.0,1920.0</dmetric>
 	<Scene sr="sceneIISER WiFi AutoLogin">
 		<cdate>1503158316131</cdate>
-		<edate>1507593749297</edate>
+		<edate>1508276592509</edate>
 		<heightLand>1080</heightLand>
 		<heightPort>1248</heightPort>
 		<nme>IISER WiFi AutoLogin</nme>
@@ -35,7 +35,7 @@
 		<TextElement sr="elements10" ve="3">
 			<clickTask>30</clickTask>
 			<flags>4</flags>
-			<geom>202,772,322,124,573,969,124,228</geom>
+			<geom>202,772,322,124,573,852,124,228</geom>
 			<Str sr="arg0" ve="3">Share</Str>
 			<Str sr="arg1" ve="3">share --&gt;</Str>
 			<Int sr="arg2" val="12"/>
@@ -88,7 +88,7 @@
 		<TextElement sr="elements12" ve="3">
 			<clickTask>31</clickTask>
 			<flags>4</flags>
-			<geom>202,772,322,74,523,994,178,204</geom>
+			<geom>202,772,322,74,523,876,178,204</geom>
 			<longclickTask>35</longclickTask>
 			<Str sr="arg0" ve="3">Stats</Str>
 			<Str sr="arg1" ve="3">stats &lt;?&gt;</Str>
@@ -310,7 +310,7 @@
 		</TextElement>
 		<PropertiesElement sr="props">
 			<Int sr="arg0" val="2"/>
-			<Int sr="arg1" val="6"/>
+			<Int sr="arg1" val="2"/>
 			<Str sr="arg2" ve="3">#33FFFFFF</Str>
 			<Int sr="arg3" val="0"/>
 			<Str sr="arg4" ve="3">IISER Wifi AutoLogin</Str>
