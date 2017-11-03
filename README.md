@@ -1,13 +1,13 @@
 # AutoFi
 Auto-login assistant for WiFi captive portal.  
-Download: [[latest-apk](https://github.com/harsgak/AutoFi/blob/master/factory/kids/AutoFi.32.apk?raw=true)]
+Download: [[latest-apk](https://github.com/harsgak/AutoFi/blob/master/factory/kids/AutoFi.34.apk?raw=true)]
 
 ## Why AutoFi?
 On IISER Wifi network it is not uncommon to get disconnected and reconnected automatically while moving or due to signal fluctuations. When this happens, old session dies and often a new captive portal requests you for login again.
 
 Sometimes it just fails silently, you are connected to network but login has expired. This can be very frustrating and interrupt critical tasks such as WhatsApp, Facebook, IISERMail etc and leave you without updates until you remember to log in again.
 
-## How to get Autofi?
+## How to get AutoFi?
 Autofi is officially available at the following sources.  
 
 [![AutoFi on Amazon](/images/amazon-appsstore-us-gray-v2.png)](https://www.amazon.com/gp/mas/dl/android?p=in.ac.iiserpune.students.gakhare.harsh.iiserautofi) 
