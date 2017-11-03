@@ -2,7 +2,7 @@
 	<dmetric>1080.0,1920.0</dmetric>
 	<Scene sr="sceneIISER WiFi AutoLogin">
 		<cdate>1503158316131</cdate>
-		<edate>1508276592509</edate>
+		<edate>1509704679928</edate>
 		<heightLand>1080</heightLand>
 		<heightPort>1248</heightPort>
 		<nme>IISER WiFi AutoLogin</nme>
@@ -430,14 +430,14 @@ P.S: Its still in exclusive early access for IISERites. Ask me for the apk if yo
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">text/plain</Str>
 			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">android.intent.extra.TEXT: Hey, try this app by @Hg
+			<Str sr="arg4" ve="3">android.intent.extra.TEXT: Hey, try this app by @Hg  
 
-AutoFi : your WiFi-login assistant from the Amazon Appstore. https://www.amazon.com/dp/B074YWKN23/ref=apps_sf_sta
+AutoFi : your WiFi-login assistant
+https://harsgak.github.io/AutoFi/ 
 
-It automatically logs me into IISER WiFi captive portal every time I'm connected to IISER WiFi. You should definitely try it.
-It has kept my connection alive %TotalLiveCycles times (still counting!)
+It automatically logs me into IISER WiFi captive portal every time I'm connected to IISER WiFi. You should definitely try it. It has kept my connection alive %TotalLiveCycles times (still counting!)  
 
-P.S: Its still in exclusive early access for IISERites. Ask me for the apk if you don't find it here : https://github.com/harsgak/AutoFi</Str>
+P.S: Its still in exclusive early access for IISERites. Ask me for the apk if you can't get it at the Amazon Appstore also. https://www.amazon.com/dp/B074YWKN23/ref=apps_sf_sta</Str>
 			<Str sr="arg5" ve="3"/>
 			<Str sr="arg6" ve="3"/>
 			<Str sr="arg7" ve="3"/>
